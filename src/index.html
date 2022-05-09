@@ -2,9 +2,12 @@
 <html>
   <head>
     <title>VideoCall App</title>
-
+    <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-
+    <meta
+      name="description"
+      content="VideoCall App using WebRtc, Created by Ehsan Ghaffar"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -55,12 +58,14 @@
       </div>
     </div>
 
-    <nav class="navbar fixed-top bg-info rounded-0 d-print-none">
-      <div class="text-white">Video Call</div>
+    <nav
+      class="navbar fixed-top bg-primary bg-gradiant rounded-0 py-2 d-print-none"
+    >
+      <div class="text-white">Video Call App</div>
 
       <div class="pull-right room-comm" hidden>
         <span class="text-white mr-5">
-          Unique Identifier: <span id="randomNumber"></span>
+          username: <span id="randomNumber"></span>
         </span>
 
         <button
@@ -147,7 +152,7 @@
         </div>
 
         <div class="col-12 col-md-4 offset-md-4 mb-3">
-          <button id="create-room" class="btn btn-block rounded-0 btn-info">
+          <button id="create-room" class="btn btn-block rounded-1 btn-primary">
             Create Room
           </button>
         </div>
@@ -180,7 +185,7 @@
         </div>
 
         <div class="col-12 col-md-4 offset-md-4 mb-3">
-          <button id="enter-room" class="btn btn-block rounded-0 btn-info">
+          <button id="enter-room" class="btn btn-block rounded-1 btn-primary">
             Enter Room
           </button>
         </div>
@@ -234,6 +239,20 @@
           </form>
         </div>
       </div>
+    </div>
+    <div class="container-fluid">
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center">
+              <span class="text-white">
+                <i class="fa fa-copyright"></i>
+                2020
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

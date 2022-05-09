@@ -24,3 +24,6 @@ node_modules/
 # dotenv environment variables file
 .env
 .env.test
+
+# Filesystem files
+.DS_Store
