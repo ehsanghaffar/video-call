@@ -1,0 +1,25 @@
+{
+  "name": "videocall-server",
+  "version": "0.0.1",
+  "description": "A video call server for the web, written in Node.js",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [
+    "LiveStream",
+    "Server"
+  ],
+  "author": "Ehsan Ghaffar <ghafari.5000@gmail.com>",
+  "license": "ISC"
+}
