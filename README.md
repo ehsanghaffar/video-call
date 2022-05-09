@@ -4,7 +4,7 @@ A minimal VideoCall App using WebRTC, Socket.io and Node.js.
 
 ## Installation
 
-- Run `npm ci`
+- Run `npm install`
 - `cd src`
 - `node app.js` or `npm start`
 
