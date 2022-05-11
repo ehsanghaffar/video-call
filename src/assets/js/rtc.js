@@ -30,7 +30,8 @@ window.addEventListener("load", () => {
     let socket = io("/stream");
 
     var socketId = "";
-    var randomNumber = `__${h.generateRandomString()}__${h.generateRandomString()}__`;
+    // var randomNumber = `__${h.generateRandomString()}__${h.generateRandomString()}__`;
+    var randomNumber = username;
     var myStream = "";
     var screen = "";
     var recordedStream = [];

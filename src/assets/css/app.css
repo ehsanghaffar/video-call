@@ -213,8 +213,48 @@
 }
 
 @media (min-width: 768px) {
+  nav {
+    padding: 20px;
+  }
   .card {
     width: 50%;
     z-index: 1000;
   }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navbar div {
+    padding: 5px;
+  }
+  .navbar span {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+  }
+  .chat-col {
+    right: -200px;
+    width: 200px;
+    z-index: 99999;
+    transition: 0.3s;
+    top: 47px;
+  }
+}
+
+#chat-input {
+  width: auto;
+}
+
+#randomNumber {
+  color: mediumspringgreen;
+  font-size: 18px;
+  text-shadow: 0 0 1px #333;
+}
+
+button i:hover {
+  color: tomato !important;
 }
