@@ -27,3 +27,4 @@ node_modules/
 
 # Filesystem files
 .DS_Store
+__MACOSX
